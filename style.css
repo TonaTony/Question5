@@ -1,0 +1,86 @@
+#l1 {
+    list-style-type: upper-alpha;
+}
+
+#l2 {
+    list-style-type: decimal;
+}
+
+#l3 {
+    list-style-type: lower-alpha;
+}
+
+#l4 {
+    list-style-type: lower-roman;
+}
+
+#l5 {
+    list-style-type: circle;
+}
+
+/* BREAKPOINT */
+
+@media (max-width: 768px) {
+    
+    body {
+        margin-top: 9rem;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 520px) {
+    
+    Body {
+        margin-top: 9rem;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 462px) {
+    
+    body {
+        margin-top: 9rem;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 371px) {
+    html {
+        font-size: 57%;
+    }
+    
+    body {
+        margin-top: 9rem;
+        justify-content: center;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        text-align: center;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 55%;
+    }
+    
+    body {
+        margin-top: 9rem;
+        justify-content: center;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        text-align: center;
+        height: fit-content;
+    }
+}
