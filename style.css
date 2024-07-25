@@ -29,6 +29,10 @@
         flex-direction: column;
     }
 
+    #l1 {
+        margin: auto;
+    }
+
 }
 
 @media (max-width: 520px) {
